@@ -1,0 +1,121 @@
+{
+    "speed_tests": [
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 13.347359128429959,
+            "upload_speed": 1.022492907078516,
+            "ping": 52.519,
+            "packet_loss": 0,
+            "timestamp": "2025-01-10 18:39:32"
+        },
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 13.629597129998233,
+            "upload_speed": 1.0516263878661274,
+            "ping": 51.802,
+            "packet_loss": 0,
+            "timestamp": "2025-01-10 18:45:10"
+        },
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 3.3647498438416927,
+            "upload_speed": 1.0781306735428928,
+            "ping": 71.631,
+            "packet_loss": 0,
+            "timestamp": "2025-01-10 18:53:47"
+        },
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 11.16699440237889,
+            "upload_speed": 1.0269278217601514,
+            "ping": 50.876,
+            "packet_loss": 0,
+            "timestamp": "2025-01-10 19:10:12"
+        },
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 12.68156428907773,
+            "upload_speed": 1.0509497643402401,
+            "ping": 49.147,
+            "packet_loss": 0,
+            "timestamp": "2025-01-10 19:11:07"
+        },
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 12.065426397068855,
+            "upload_speed": 0.9249785337761983,
+            "ping": 54.823,
+            "packet_loss": 0,
+            "timestamp": "2025-01-10 20:37:42"
+        },
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 11.461433055168275,
+            "upload_speed": 1.057380718917244,
+            "ping": 57.695,
+            "packet_loss": 0,
+            "timestamp": "2025-01-10 21:47:12"
+        },
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 7.885514764836802,
+            "upload_speed": 0.8387623663802001,
+            "ping": 136.568,
+            "packet_loss": 0,
+            "timestamp": "2025-01-10 21:53:00"
+        },
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 6.617987231843421,
+            "upload_speed": 0.9646016534420453,
+            "ping": 103.086,
+            "packet_loss": 0,
+            "timestamp": "2025-01-10 21:56:23"
+        },
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 9.591326146116034,
+            "upload_speed": 1.066450538850066,
+            "ping": 59.218,
+            "packet_loss": 0,
+            "timestamp": "2025-01-10 22:25:29"
+        },
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 12.812175866831,
+            "upload_speed": 1.0266805909920418,
+            "ping": 59.37,
+            "packet_loss": 0,
+            "timestamp": "2025-01-10 22:29:42"
+        },
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 11.594877266083708,
+            "upload_speed": 1.0500515243246322,
+            "ping": 60.099,
+            "packet_loss": 0,
+            "timestamp": "2025-01-10 22:36:07"
+        },
+        {
+            "user_id": 1826426246,
+            "username": "Rolex_been",
+            "download_speed": 13.205493892448755,
+            "upload_speed": 1.0673442472439474,
+            "ping": 56.492,
+            "packet_loss": 0,
+            "timestamp": "2025-01-11 11:52:17"
+        }
+    ]
+}

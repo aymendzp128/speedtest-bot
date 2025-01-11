@@ -1,0 +1,4 @@
+flask
+python-telegram-bot
+speedtest-cli
+babel
