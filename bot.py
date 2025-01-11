@@ -416,16 +416,24 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         await update.message.reply_text("شكرًا على إبلاغك! سنقوم بمراجعة المشكلة قريبًا.")
         context.user_data["awaiting_report"] = False
 
-def main() -> None:
-    # استبدل 'YOUR_API_TOKEN' بالـ API Token الذي حصلت عليه من BotFather
-    api_token = os.getenv("TELEGRAM_API_TOKEN", "7693246401:AAFbW5TmCOq5xGQrR4kExf5ZVL-zLmhPDu0")
-    application = Application.builder().token(api_token).build()
+async def main():
+    # تهيئة البوت
+    bot_token = os.getenv("BOT_TOKEN")
+    if not bot_token:
+        print("Error: BOT_TOKEN not found in environment variables")
+        return
 
+    # إنشاء تطبيق البوت
+    application = Application.builder().token(bot_token).build()
+
+    # إضافة معالجات الأوامر
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CallbackQueryHandler(button_handler))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
-    application.run_polling()
+    # بدء البوت
+    print("Bot started...")
+    await application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == '__main__':
-    main()
+    asyncio.run(main())
