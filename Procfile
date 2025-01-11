@@ -1,2 +1,2 @@
-web: python dashboard.py
+web: gunicorn dashboard:app
 worker: python bot.py
